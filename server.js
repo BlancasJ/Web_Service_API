@@ -26,7 +26,7 @@ app.get("/api", (req, res) => {
   res.json({ message: "Welcome to Notes app" });
 });
 
-// routes try 2
+// routes try 3
 require("./app/routes/postIt.routes.js")(app);
 
 // set port, listen for requests
