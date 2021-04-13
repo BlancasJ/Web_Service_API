@@ -23,8 +23,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // simple route
 app.get("/api", (req, res) => {
-  res.json({ message: "Welcome to Notes app JB589" });
-  //res.send('<h1>Welcome to my notes api</h1>');
+  //res.json({ message: "Welcome to Notes app JB589" });
+  res.send('<h1>Welcome to my api</h1> <h3>This api is conneted to a database and a web page</h3>');
 });
 
 // routes try 3
