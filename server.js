@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // simple route
 app.get("/api", (req, res) => {
-  res.json({ message: "Welcome to Notes app" });
+  res.json({ message: "Welcome to Notes app JB589" });
 });
 
 // routes try 3
